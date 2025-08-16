@@ -1,3 +1,163 @@
 nav{
     background-color: #bdd6f7;
 }
+
+.bgcolor{
+    background-color: lightgrey;
+}
+.background-color{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(110, 110, 110)
+}
+.footer{
+    background-color: rgb(110, 110, 110)
+}
+
+​
+Tyrese Tupai
+​
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #636363;
+    border: 2px solid rgb(145, 145, 145);
+    border-radius: 45px;
+}
+
+.nav-link {
+    padding: 10px;
+}
+.centered-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+.centered-image-container {
+    display: inline-block;
+    border: 2px solid black; /* Add a border around the image */
+    border-radius: 50%; /* Make the border circular */
+    overflow: hidden; /* Hide any overflow outside the circular border */
+}
+  .centered-image {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 50%; /* Make the image appear as a circle */
+    overflow: hidden; /* Hide any overflow outside the circle */
+  }
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+       line-height: 1.6;
+       margin: 0;
+       padding: 0;
+   }
+   .container {
+       max-width: 1000px;
+       margin: 20px auto;
+       padding-left: 20px;
+       overflow: hidden; /* Clearfix to contain floats */
+   }
+   .image-wrapper {
+    float: left;
+       width: 45%; /* Adjust width as needed */
+       margin-right: 5%; /* Adjust spacing between images */
+   }
+   .image-wrapper:last-child {
+       margin-right: 0; /* Remove margin for the last image to prevent extra space */
+   }
+   img {
+       max-width: 100%;
+       height: auto;
+       display: block;
+       margin: 0 auto;
+   }
+   .grey-box {
+       background-color: #f2f2f2;
+       padding: 10px;
+       border-radius: 0px;
+       border: 1px solid #000; /* Black border */   
+   }
+
+      body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        position: relative;
+        width: 100%;
+        height: 400px; /* Adjust the height as needed */
+        overflow: hidden;
+    }
+    
+    .header-image {
+        width: 100%;
+        height: 100%; /* Maintains aspect ratio */
+        object-fit: cover; /* Ensures the image covers the header area */
+        display: block;
+    }
+    
+    main {
+        padding: 20px;
+    }
+
+
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        position: relative;
+        width: 100%;
+        height: 500px; /* Adjust the height as needed */
+        overflow: hidden;
+    }
+    
+    .header-image {
+        width: 100%;
+        height: auto; /* Maintains aspect ratio */
+        object-fit: cover; /* Ensures the image covers the header area */
+        display: block;
+    }
+    
+    main {
+        padding: 20px;
+    }
+
+
+
+
+    
+    table {
+        width: 800px;
+        margin: 0 auto; /* Center horizontally */
+        border-spacing: 0; /* Reset spacing if needed */
+    }
+    
+    th, td {
+        padding: 10px; /* Optional: add padding for better spacing */
+    }
+    
+    th {
+        text-align: left;
+    }
+    
+    table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+    }
