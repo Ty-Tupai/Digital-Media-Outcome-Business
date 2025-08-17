@@ -40,12 +40,12 @@ def create_post():
         if not title:
             flash('title cannot be empty', category='error')
         elif not content:
-            flash('Post cannot be empty', category='error')
+            flash('Any Notes? cannot be empty', category='error')
         else:
             post = Post(title=title, content=content, author=current_user.id)
             db.session.add(post)
             db.session.commit()
-            flash('Post created!', category= 'success')
+            flash('Shopping List Created!', category= 'success')
         return redirect(url_for('views.blog'))
         
     return render_template("create_post.html", user=current_user)
@@ -60,9 +60,9 @@ def delete_post(id):
     if not post:
         flash('Post does not exist', category='error')
     elif current_user.id != post.author:
-        flash('You do not have permission to delete this post', category='error')
+        flash('You do not have permission to delete this Shopping List', category='error')
     else:
         db.session.delete(post)
         db.session.commit()
-        flash('Post deleted!', category= 'success')
+        flash('Shopping List deleted!', category= 'success')
     return redirect(url_for('views.blog'))
